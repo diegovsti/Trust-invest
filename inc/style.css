@@ -1,0 +1,163 @@
+/* css do projeto Trust */
+/* Corpo do site */
+body{
+    background-color: black;
+}
+
+/* Linha para marcação */
+.x{
+    border: 1px solid red;
+}
+
+/* para uso de margens pré-definidas */
+.margem-top-5  { margin-top: 5px; }
+.margem-top-10 { margin-top: 10px; }
+.margem-top-15 { margin-top: 15px; }
+
+/* Container Global */
+.conteudo-global{
+    margin-top: 30px;
+    background-color: #efefef;
+    padding: 50px;
+}
+
+/* css da navegação */
+.conteudo-navegacao{
+    background-color: rgb(66, 66, 66);
+    color: white;
+    padding: 20px;
+}
+
+/* css hiperligação da navegaçã */
+.conteudo-navegacao a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 20px;
+    padding: 2px;
+}
+
+/* css texto da navegação */
+.texto-navegacao{
+    font-size: 1.2em;
+    padding: 5px;
+    
+}
+
+/* efeito hover, da navegação */
+.conteudo-navegacao a:hover{
+    color: gray;
+}
+
+/* barra branca entre a imagem e a navegação */
+.barra-branca{
+    background-color: white;
+    padding: 20px;
+}
+
+/* css Imagem do banner */
+.imagem-social{
+    background-image: url("../images/imagem_social.jpg");
+    height: 600px;
+    display: table;
+    width: 100%;
+}
+
+/* para agrupar o botão na parte de baixo do banner */
+.colocar-fundo{
+    float: none;
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+/* botão de chamada */
+.botao{
+    font-size: 1.5em;
+    padding: 10px 30px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    white-space: normal;
+}
+
+/* seção de serviços */
+/* titulo da seçao */
+.servicos h2{
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* texto da seção */
+.servicos{
+    padding: 20px 0px;
+    font-size: 12px;
+    margin: auto;
+    font-weight: bold;
+}
+
+/* caixas de informações da seção de serviços */
+.espaco-caixas{
+    padding: 20px;
+    font-size: 14px;
+}
+
+/* efeito da caixa de informações */
+.espaco-caixas:hover{
+    box-shadow: 5px 8px rgba(192, 192, 192, 0.5);
+}
+
+/* titulo da caixa de informações */
+.titulo-caixa{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+/* botão da caixa de informação */
+.botao-caixa{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* rodapé do site */
+.rodape{
+    background-color: #282C2f;
+    color: white;
+}
+
+/* caixa do rodapé */
+.caixa-rodape{
+    padding: 60px;
+    margin: 20px auto;
+}
+
+/*coluna 1 - informações de endereço/telefone */
+.conteudo-rodape{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+/* texto das informações */
+span{
+    margin-left: 10px;
+}
+/* pré-definidos de cada informação */
+.cidade-endereco{
+    margin-left: 45px;
+}
+.link-email{
+    color: white;
+    font-size: 1.1em;
+}
+.link-email:hover{
+    color: gray;
+}
+
+/* direito autoral finalzinho da página */
+.direito-autoral{
+    text-align: right;
+    color: white;
+}
+
+/* informação sobre a empresa */
+.sobre-empresa{
+    text-align: justify;
+    padding-bottom: 10px;
+}
